@@ -1,5 +1,9 @@
 import { Chakra_Petch, Inter, Poppins, Unbounded, Sora } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false; 
+import "remixicon/fonts/remixicon.css";
 
 const chakraPetch = Chakra_Petch({
 	variable: "--font-chakrapetch",
